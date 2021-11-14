@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Shop</title>
+</head>
+<body>
+  <div class="header">
+    <h1 class="headline">WELCOME TO OUR SHOP!</h1>
+  </div>
+  <div class="container">
+    <div class="container__inner" >
+      <div class="container__item">
+        <h2 class="container__headline">Add product:</h2>
+        <div class="container__item__product">
+          <div class="product__input">
+            <span>Name:</span>
+            <input id="productName" type="text">
+          </div>
+          <div class="product__input">
+            <span>Image:</span>
+            <input id="productImage" type="text">
+          </div>
+          <div class="product__input">
+            <span>Description:</span>
+            <input id="productDescription" type="text">
+          </div>
+          <div class="product__input">
+            <span>Price:</span>
+            <input id="productPrice" type="text">
+          </div>
+          <div class="product__input">
+            <span>Amount:</span>
+            <input id="productAmount" type="text">
+          </div>
+          <button id="buttonAdd">Add</button>
+        </div>
+      </div>
+      <div class="container__item">
+        <h2 class="container__headline">Basket:</h2>
+        <div class="container__item__basket">
+          <div class="basket__products">
+            
+          </div>
+          <button id="buttonBuy">Buy</button>
+          <button id="buttonDelete">Delete</button>
+        </div>
+      </div>
+      <div class="container__item">
+        <h2 class="container__headline">Purchases:</h2>
+        <div class="container__item__purchases"></div>
+      </div>
+    </div>
+
+    <div style="text-align: center;">
+      <button class="container__btn">NEXT DAY</button>
+    </div>
+    
+  </div>
+  
+  
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
